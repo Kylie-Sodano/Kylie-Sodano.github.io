@@ -26,5 +26,28 @@
 
 * {
   background-color: #ede9da;
-  border-image: url(airbrush_BG.png) round;
+}
+
+.banner {
+  z-index:1;
+}
+
+footer {
+  padding: 3px;
+  margin-top: auto;
+  bottom: 0;
+  position: fixed;
+  width: 100%
+}
+
+.image-footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.image-footer-container img {
+  margin: 0 10px;
+  max-width: 100%;
+  height: auto;
 }
