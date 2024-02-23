@@ -1,16 +1,16 @@
-#left {
+.left {
   padding: 10px;
   margin-left: 7%;
   float: left;
   width: 22%;
 }
-#center {
+.center {
   padding: 10px;
   width: 38%;
   float: left;
   position: relative;
 }
-#right {
+.right {
   padding: 10px;
   float: left;
   width: 22%;
@@ -19,7 +19,6 @@
 #intro {
   padding: 10%;
   float: left;
-  width: 50%;
   position: relative;
   font-family: 'Sacramento', cursive;
 }
@@ -47,7 +46,20 @@ footer {
   margin-top: 20px;
 }
 .image-footer-container img {
-  margin: 0 10px;
+  margin: 0px;
   max-width: 100%;
   height: auto;
+}
+
+.square {
+  height: 30%;
+  width: 30%;
+  background-color: #F3CFC6;
+  text-align: center;
+}
+
+.tape {
+  z-index: 2;
+  margin-left: 34%;
+  height: 60px;
 }
