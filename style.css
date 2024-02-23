@@ -22,3 +22,9 @@
   width: 50%;
   position: relative;
   font-family: 'Sacramento', cursive;
+}
+
+* {
+  background-color: #ede9da;
+  border-image: url(airbrush_BG.png) round;
+}
